@@ -402,6 +402,10 @@
       "Sala de aula",
       "Projetor"
     ],
-    "avaliacaoAprendizado": "Participação"
+    "avaliacaoAprendizado": "Participação",
+    "links": [ {
+        "titulo": "Slides",
+        "url": "https://www.canva.com/design/DAHCEcDkNYI/YqWqdLUjXCfXhtLms07r5Q/edit?utm_content=DAHCEcDkNYI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      }]
   }
 ]
