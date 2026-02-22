@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Editor de Planos de Aula</title>
+
+<style>
+body { font-family: Arial; margin:20px; background:#f2f4f8;}
+.card { background:white; padding:15px; margin-bottom:15px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1);}
+input, select, textarea { width:100%; padding:6px; margin:4px 0;}
+button { padding:6px 10px; margin:4px 0; cursor:pointer;}
+.tag { display:inline-block; background:#1976d2; color:white; padding:5px 10px; border-radius:20px; margin:3px;}
+.tag span { margin-left:8px; cursor:pointer;}
+.topbar { margin-bottom:20px;}
+#procedimentoMetodologico { height: 150px;}
+</style>
+</head>
+<body>
+
+<h2>Editor de Planos de Aula</h2>
+
+<div class="topbar">
+<input type="file" id="fileInput" accept=".json">
+<button onclick="baixarJSON()">Baixar JSON</button>
+</div>
+
+<div class="card">
+<form id="form">
+
+<input type="hidden" id="id">
+
+<label>Instituição</label>
+<select id="instituicao"></select>
+
+<label>Professor</label>
+<select id="professor"></select>
+
+<label>Série</label>
+<select id="serie"></select>
+
+<label>Matéria</label>
+<select id="materia"></select>
+
+<label>Data</label>
+<input type="date" id="data">
+
+<label>Trimestre</label>
+<select id="trimestre">
+<option>1º</option>
+<option>2º</option>
+<option>3º</option>
+</select>
+
+<label>Temas</label>
+<input type="text" id="temaInput" placeholder="Digite e pressione Enter">
+<div id="tags"></div>
+
+<label>Duração</label>
+<input type="text" id="duracao">
+
+<label>Objetivos Gerais</label>
+<textarea id="objetivosGerais"></textarea>
+
+<label>Metodologias</label>
+<textarea id="metodologias" oninput="ajustar(this)"></textarea>
+
+<label>Procedimento Metodológico</label>
+<textarea id="procedimentoMetodologico"></textarea>
+
+<label>Materiais (separados por vírgula)</label>
+<input type="text" id="materiais">
+
+<label>Avaliação</label>
+<input type="text" id="avaliacaoAprendizado">
+
+<button type="submit">Salvar</button>
+<button type="button" onclick="novo()">Novo</button>
+
+</form>
+</div>
+
+<h3>Lista</h3>
+<div id="lista"></div>
+
+<script>
+
+let planos = [];
+let temasAtuais = [];
+
+// ================= IMPORTAR JSON =================
+
+document.getElementById("fileInput").addEventListener("change", function(e){
+let file = e.target.files[0];
+if(!file) return;
+
+let reader = new FileReader();
+reader.onload = function(event){
+try{
+planos = JSON.parse(event.target.result);
+popularSelects();
+render();
+}catch(err){
+alert("Arquivo JSON inválido");
+}
+};
+reader.readAsText(file);
+});
+
+// ================= POPULAR SELECTS DINÂMICOS =================
+
+function popularSelects(){
+let campos = ["instituicao","professor","serie","materia"];
+campos.forEach(c=>{
+let select = document.getElementById(c);
+let valores = [...new Set(planos.map(p=>p[c]).filter(Boolean))];
+select.innerHTML = "";
+valores.forEach(v=>{
+let op = document.createElement("option");
+op.value=v;
+op.text=v;
+select.appendChild(op);
+});
+});
+}
+
+// ================= TAGS =================
+
+temaInput.addEventListener("keypress", function(e){
+if(e.key==="Enter"){
+e.preventDefault();
+let val=this.value.trim();
+if(val && !temasAtuais.includes(val)){
+temasAtuais.push(val);
+this.value="";
+renderTags();
+}
+}
+});
+
+function renderTags(){
+tags.innerHTML="";
+temasAtuais.forEach(t=>{
+let div=document.createElement("div");
+div.className="tag";
+div.innerHTML = t+' <span onclick="removerTema(\''+t+'\')">x</span>';
+tags.appendChild(div);
+});
+}
+
+function removerTema(t){
+temasAtuais=temasAtuais.filter(x=>x!==t);
+renderTags();
+}
+
+// ================= CRUD =================
+
+form.addEventListener("submit", function(e){
+e.preventDefault();
+
+let idVal=id.value;
+let novoId=idVal?parseInt(idVal):gerarId();
+
+let plano={
+id:novoId,
+instituicao:instituicao.value,
+professor:professor.value,
+serie:serie.value,
+materia:materia.value,
+data:data.value,
+trimestre:trimestre.value,
+temas:temasAtuais,
+duracao:duracao.value,
+objetivosGerais:objetivosGerais.value,
+metodologias:metodologias.value,
+procedimentoMetodologico:procedimentoMetodologico.value,
+materiaisNecessarios:materiais.value.split(",").map(x=>x.trim()),
+avaliacaoAprendizado:avaliacaoAprendizado.value
+};
+
+if(idVal){
+planos=planos.map(p=>p.id===novoId?plano:p);
+}else{
+planos.push(plano);
+popularSelects();
+}
+
+novo();
+render();
+});
+
+function roolTop(){
+window.scrollTo({
+    top: 0,           // Posição Y = 0 (topo)
+    behavior: 'smooth' // Rolagem suave
+  });
+}
+
+function ajustar(el) {
+  el.style.width = (el.value.length + 1) + "ch";
+}
+
+function gerarId(){
+if(planos.length===0) return 1;
+return Math.max(...planos.map(p=>p.id))+1;
+}
+
+function editar(idEditar){
+let p=planos.find(x=>x.id===idEditar);
+id.value=p.id;
+instituicao.value=p.instituicao;
+professor.value=p.professor;
+serie.value=p.serie;
+materia.value=p.materia;
+data.value=p.data;
+trimestre.value=p.trimestre;
+duracao.value=p.duracao;
+objetivosGerais.value=p.objetivosGerais;
+metodologias.value=p.metodologias;
+procedimentoMetodologico.value=p.procedimentoMetodologico;
+materiais.value=p.materiaisNecessarios.join(", ");
+avaliacaoAprendizado.value=p.avaliacaoAprendizado;
+temasAtuais=[...p.temas];
+renderTags();
+roolTop();
+}
+
+function excluir(idExc){
+if(confirm("Deseja excluir?")){
+planos=planos.filter(p=>p.id!==idExc);
+render();
+}
+}
+
+function novo(){
+form.reset();
+id.value="";
+temasAtuais=[];
+renderTags();
+}
+
+// ================= RENDER LISTA =================
+
+function render(){
+lista.innerHTML="";
+planos.forEach(p=>{
+lista.innerHTML+=`
+<div class="card">
+<strong>ID:</strong> ${p.id}<br>
+<strong>Matéria:</strong> ${p.materia}<br>
+<strong>Data:</strong> ${p.data}<br>
+<button onclick="editar(${p.id})">Editar</button>
+<button onclick="excluir(${p.id})">Excluir</button>
+</div>`;
+});
+}
+
+// ================= EXPORTAR =================
+
+function baixarJSON(){
+if(planos.length===0){
+alert("Nenhum dado para exportar");
+return;
+}
+let dataStr="data:text/json;charset=utf-8,"+encodeURIComponent(JSON.stringify(planos,null,2));
+let a=document.createElement("a");
+a.href=dataStr;
+a.download="planos.json";
+a.click();
+}
+
+</script>
+</body>
+</html>

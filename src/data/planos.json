@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": 1,
     "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
     "professor": "Leonilso Fandres Wrublak",
@@ -7,14 +7,30 @@
     "materia": "Banco de dados",
     "data": "2026-02-09",
     "trimestre": "1º",
-    "temas": ["História do SQL", "Usos do SQL"],
+    "temas": [
+      "História do SQL",
+      "Usos do SQL"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Entender a história do SQL como ele surgiu.\nCompreender os usos do SQL como ferramenta de trabalho",
     "metodologias": "Aula expositiva dialogada.",
     "procedimentoMetodologico": "1. Acolhida dos alunos, neste momeento o professor irá fazer uma acolhida usando a dinâmica do SELECT HUMANO, o professor irá montar uma query no quadro e perguntar para os alunos quem fez isso nas férias, ótimo para introduzir a temática e como a disciplina vai funcionar\n2. Nesse segundo momento o professor deve mostrar o linkedin com vagas de emprego apresentando a importancia do SQL como um ferramenta no mercado de trabalho.\n3. Nesse momento o professor deve mostrar o vídeo do dicionário do programador disponível no link\n4. No último momento o professor poderá pegar o Slide e apresentar um breve histórico da criação do SQL e dos dados em si até os dias de hoje. ",
-    "materiaisNecessarios": ["Projetor", "Celulares", "Linkedin"],
+    "materiaisNecessarios": [
+      "Projetor",
+      "Celulares",
+      "Linkedin"
+    ],
     "avaliacaoAprendizado": "Participação",
-    "links": [{ "titulo": "Vídeo Explicativo", "url": "https://www.youtube.com/watch?v=kMznyI7r2Tc" }, { "titulo": "Slides", "url": "https://www.canva.com/design/DAHAyYuXAR4/uYaMgWX9KV5q74-v9ebOJw/edit?ui=e30" }]
+    "links": [
+      {
+        "titulo": "Vídeo Explicativo",
+        "url": "https://www.youtube.com/watch?v=kMznyI7r2Tc"
+      },
+      {
+        "titulo": "Slides",
+        "url": "https://www.canva.com/design/DAHAyYuXAR4/uYaMgWX9KV5q74-v9ebOJw/edit?ui=e30"
+      }
+    ]
   },
   {
     "id": 2,
@@ -24,12 +40,18 @@
     "materia": "Banco de dados",
     "data": "2026-02-23",
     "trimestre": "1º",
-    "temas": ["Modelos Conceitual, Lógico e Físico", "SQLite"],
+    "temas": [
+      "Modelos Conceitual, Lógico e Físico",
+      "SQLite"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Relembrar os modelos Conceitual, Lógico e Físico.\nInstalar e conhecer o SQLite",
     "metodologias": "Sala de aula invertida",
     "procedimentoMetodologico": "1. Relembrar os tipos de modelos, iniciar a aula usando o exemplo de computadores: Peça para um aluno descrever como ele explicaria 'um carro' para: Uma criança de 5 anos (Conceitual: 'É algo que anda e tem 4 rodas'). Um vendedor de concessionária (Lógico: 'É um model Sedan, cor Prata, motor 1.0'). Um mecânico (Físico: 'É um motor de combustão interna com pistões de liga de alumínio e injeção eletrônica'). \n2. Dividir a turma em 3 grupos, cada um dos grupos deve pesquisar na internet e depois apresentar sobre o que encontraram sobre modelo conceitual, lógico e físico. \n3. No último momento da aula o professor explicará como funciona a ferramenta SQLite e suas funções",
-    "materiaisNecessarios": ["Laboratório", "SQLite"],
+    "materiaisNecessarios": [
+      "Laboratório",
+      "SQLite"
+    ],
     "avaliacaoAprendizado": "Participação",
     "links": []
   },
@@ -41,14 +63,25 @@
     "materia": "Banco de dados",
     "data": "2026-03-02",
     "trimestre": "1º",
-    "temas": ["Construção de Banco de Dados"],
+    "temas": [
+      "Construção de Banco de Dados"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Aprender a utilizar a interface gráfica do SQLite .\nCriar com base em um modelo físico um banco de dados usando SQLite",
     "metodologias": "Mão na massa, Estudo de caso",
     "procedimentoMetodologico": "1. Essa aula é avaliativa, no primeiro momento o professor deverá mostrar um modelo físico como ele é, depois apresentar o SQLite e como aplicar o modelo na criação real de um banco de dados .\n2. Os alunos terão a totalidade da aula para construir os modelos, contudo no final da aula deverão ser entregues as atividades no Google Classroom.",
-    "materiaisNecessarios": ["Laboratório", "Google Drive", "Google Classroom"],
+    "materiaisNecessarios": [
+      "Laboratório",
+      "Google Drive",
+      "Google Classroom"
+    ],
     "avaliacaoAprendizado": "Participação",
-    "links": [{ "titulo": "Estudos de caso", "url": "" }]
+    "links": [
+      {
+        "titulo": "Estudos de caso",
+        "url": ""
+      }
+    ]
   },
   {
     "id": 4,
@@ -58,14 +91,30 @@
     "materia": "Banco de dados",
     "data": "2026-03-09",
     "trimestre": "1º",
-    "temas": ["SELECT", "WHERE"],
+    "temas": [
+      "SELECT",
+      "WHERE"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Conhecer o comando SELECT.\nUsar filtros simples com WHERE",
     "metodologias": "Aprendizagem Baseada em projetos.",
     "procedimentoMetodologico": "1. A aula consistirá na apresentação do comando SELECT, Teste usando o comando SELECT no SQLite.\n2. Apresentação da claúsula WHERE, utilização do WHERE em filtros simples no SQLite.",
-    "materiaisNecessarios": ["SQLite", "Laboratório", "dataset predefinido"],
+    "materiaisNecessarios": [
+      "SQLite",
+      "Laboratório",
+      "dataset predefinido"
+    ],
     "avaliacaoAprendizado": "Projeto",
-    "links": [{ "titulo": "Slides", "url": "" }, { "titulo": "Banco de dados", "url": "" }]
+    "links": [
+      {
+        "titulo": "Slides",
+        "url": ""
+      },
+      {
+        "titulo": "Banco de dados",
+        "url": ""
+      }
+    ]
   },
   {
     "id": 5,
@@ -75,14 +124,30 @@
     "materia": "Banco de dados",
     "data": "2026-03-16",
     "trimestre": "1º",
-    "temas": ["GROUP BY", "ORDER BY"],
+    "temas": [
+      "GROUP BY",
+      "ORDER BY"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Fazer agrupamentos com GROUP BY combinados com SELECT.\nUtilizar ORDER BY para organizar as respostas do banco",
     "metodologias": "Aprendizagem Baseada em projetos.",
     "procedimentoMetodologico": "1. A aula consistirá na apresentação dos agrupamentos com GROUP BY, agrupar os dados usando o SQLite.\n2. Apresentação da claúsula ORDER BY, utilização do ORDER BY em consultas no SQL.",
-    "materiaisNecessarios":  ["SQLite", "Laboratório", "dataset predefinido"],
+    "materiaisNecessarios": [
+      "SQLite",
+      "Laboratório",
+      "dataset predefinido"
+    ],
     "avaliacaoAprendizado": "Projeto",
-    "links": [{ "titulo": "Slides", "url": "" }, { "titulo": "Banco de dados", "url": "" }]
+    "links": [
+      {
+        "titulo": "Slides",
+        "url": ""
+      },
+      {
+        "titulo": "Banco de dados",
+        "url": ""
+      }
+    ]
   },
   {
     "id": 6,
@@ -92,14 +157,25 @@
     "materia": "Banco de dados",
     "data": "2026-03-23",
     "trimestre": "1º",
-    "temas": ["CASE", "JOIN"],
+    "temas": [
+      "CASE",
+      "JOIN"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Entender os casos de uso do CASE.\nCompreender os usos do SQL como ferramenta de trabalho. Criar consultas complexas usando JOINs",
     "metodologias": "Aprendizagem Baseada em projetos.",
     "procedimentoMetodologico": "1. Ainda não decidido",
-    "materiaisNecessarios": ["Projetor", "Laboratório"],
+    "materiaisNecessarios": [
+      "Projetor",
+      "Laboratório"
+    ],
     "avaliacaoAprendizado": "Participação",
-    "links": [{ "titulo": "Link", "url": "" }]
+    "links": [
+      {
+        "titulo": "Link",
+        "url": ""
+      }
+    ]
   },
   {
     "id": 7,
@@ -109,14 +185,24 @@
     "materia": "Banco de dados",
     "data": "2026-03-30",
     "trimestre": "1º",
-    "temas": ["Comandos de consultas, filtragens e agregações"],
+    "temas": [
+      "Comandos de consultas, filtragens e agregações"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Ainda não definidos",
     "metodologias": "Aprendizagem Baseada em projetos.",
     "procedimentoMetodologico": "1. Ainda não decidido",
-    "materiaisNecessarios": ["Projetor", "Laboratório"],
+    "materiaisNecessarios": [
+      "Projetor",
+      "Laboratório"
+    ],
     "avaliacaoAprendizado": "Participação",
-    "links": [{ "titulo": "Link", "url": "" }]
+    "links": [
+      {
+        "titulo": "Link",
+        "url": ""
+      }
+    ]
   },
   {
     "id": 8,
@@ -126,14 +212,26 @@
     "materia": "Banco de dados",
     "data": "2026-04-06",
     "trimestre": "1º",
-    "temas": ["INSERT", "DELETE", "UPDATE"],
+    "temas": [
+      "INSERT",
+      "DELETE",
+      "UPDATE"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Ainda não definidos",
     "metodologias": "Aprendizagem Baseada em projetos.",
     "procedimentoMetodologico": "1. Ainda não decidido",
-    "materiaisNecessarios": ["Projetor", "Laboratório"],
+    "materiaisNecessarios": [
+      "Projetor",
+      "Laboratório"
+    ],
     "avaliacaoAprendizado": "Participação",
-    "links": [{ "titulo": "Link", "url": "" }]
+    "links": [
+      {
+        "titulo": "Link",
+        "url": ""
+      }
+    ]
   },
   {
     "id": 9,
@@ -143,14 +241,25 @@
     "materia": "Banco de dados",
     "data": "2026-04-13",
     "trimestre": "1º",
-    "temas": ["CREATE TABLE", "ALTER TABLE"],
+    "temas": [
+      "CREATE TABLE",
+      "ALTER TABLE"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Ainda não definidos",
     "metodologias": "Aprendizagem Baseada em projetos.",
     "procedimentoMetodologico": "1. Ainda não decidido",
-    "materiaisNecessarios": ["Projetor", "Laboratório"],
+    "materiaisNecessarios": [
+      "Projetor",
+      "Laboratório"
+    ],
     "avaliacaoAprendizado": "Participação",
-    "links": [{ "titulo": "Link", "url": "" }]
+    "links": [
+      {
+        "titulo": "Link",
+        "url": ""
+      }
+    ]
   },
   {
     "id": 10,
@@ -160,14 +269,24 @@
     "materia": "Banco de dados",
     "data": "2026-04-27",
     "trimestre": "1º",
-    "temas": ["Comandos de definição e manipulação de dados"],
+    "temas": [
+      "Comandos de definição e manipulação de dados"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Ainda não definidos",
     "metodologias": "Aprendizagem Baseada em projetos.",
     "procedimentoMetodologico": "1. Ainda não decidido",
-    "materiaisNecessarios": ["Projetor", "Laboratório"],
+    "materiaisNecessarios": [
+      "Projetor",
+      "Laboratório"
+    ],
     "avaliacaoAprendizado": "Participação",
-    "links": [{ "titulo": "Link", "url": "" }]
+    "links": [
+      {
+        "titulo": "Link",
+        "url": ""
+      }
+    ]
   },
   {
     "id": 11,
@@ -177,12 +296,19 @@
     "materia": "Banco de dados",
     "data": "2026-05-04",
     "trimestre": "1º",
-    "temas": ["Por que abrender SQL?", "Bancos de Dados e SQL"],
+    "temas": [
+      "Por que abrender SQL?",
+      "Bancos de Dados e SQL"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Entender a importância do SQL para a área tech.",
     "metodologias": "Questionário.",
     "procedimentoMetodologico": "1. Prova escrita",
-    "materiaisNecessarios": ["Sala de aula", "Papel", "Caneta"],
+    "materiaisNecessarios": [
+      "Sala de aula",
+      "Papel",
+      "Caneta"
+    ],
     "avaliacaoAprendizado": "Prova Escrita",
     "links": []
   },
@@ -194,13 +320,88 @@
     "materia": "Banco de dados",
     "data": "2026-05-11",
     "trimestre": "1º",
-    "temas": ["Comandos SQL: DQL, DML e DDL"],
+    "temas": [
+      "Comandos SQL: DQL, DML e DDL"
+    ],
     "duracao": "2 aulas",
     "objetivosGerais": "Entender como e quando usar os comandos do SQL",
     "metodologias": "Questionário.",
     "procedimentoMetodologico": "1. Prova escrita",
-    "materiaisNecessarios": ["Sala de aula", "Papel", "Caneta"],
+    "materiaisNecessarios": [
+      "Sala de aula",
+      "Papel",
+      "Caneta"
+    ],
     "avaliacaoAprendizado": "Prova Escrita",
     "links": []
+  },
+  {
+    "id": 13,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "3º ano Desenvolvimento de Sistemas",
+    "materia": "Programação Mobile",
+    "data": "2026-05-11",
+    "trimestre": "1º",
+    "temas": [
+      "Comandos SQL: DQL, DML e DDL"
+    ],
+    "duracao": "2 aulas",
+    "objetivosGerais": "Entender como e quando usar os comandos do SQL",
+    "metodologias": "Questionário.",
+    "procedimentoMetodologico": "1. Prova escrita",
+    "materiaisNecessarios": [
+      "Sala de aula",
+      "Papel",
+      "Caneta"
+    ],
+    "avaliacaoAprendizado": "Prova Escrita",
+    "links": []
+  },
+  {
+    "id": 14,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "1º ano Desenvolvimento de Sistemas",
+    "materia": "Introdução a Computação",
+    "data": "2026-05-11",
+    "trimestre": "1º",
+    "temas": [
+      "Comandos SQL: DQL, DML e DDL"
+    ],
+    "duracao": "2 aulas",
+    "objetivosGerais": "Entender como e quando usar os comandos do SQL",
+    "metodologias": "Questionário.",
+    "procedimentoMetodologico": "1. Prova escrita",
+    "materiaisNecessarios": [
+      "Sala de aula",
+      "Papel",
+      "Caneta"
+    ],
+    "avaliacaoAprendizado": "Prova Escrita",
+    "links": []
+  },
+  {
+    "id": 15,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "2º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-02-23",
+    "trimestre": "1º",
+    "temas": [
+      "IA",
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "duracao": "3 aulas",
+    "objetivosGerais": "Desenvolver habilidades técnicas básicas em IA, incluindo entendimento de algoritmos de aprendizado de máquina e ferramentas de desenvolvimento de IA.",
+    "metodologias": "Aula expositiva Dialogada",
+    "procedimentoMetodologico": "Essa primeira parte consiste em 3 aulas.\nNo primeiro momento o professor deve iniciar a aula fazendo uma dinâmica do que é IA ou não, trazendo os alunos com questionamentos simples, se é IA do mundo real ou não.\nAkinator; -> verdadeiro\nVisão/J.A.R.V.I.S; -> verdadeiro\nCalculadora; -> falso\nNetflix recomendar filme; -> verdadeiro\nFiltros do Instagram; -> falso\nSkynet; -> verdadeiro\nInstagram mostrar anúncios; -> verdadeiro\nO Arquiteto (The Architect) -> verdadeiro\nGPS recalcular rota; -> falso\nC3PO -> verdadeiro\nChatGPT, Gemini, Manus, Grok, ; -> verdadeiro\nUsar o gancho: Então existem várias IAs, mas afinal o que é IA.\nAtividade Cada aluno deve escolher do quadro para desenhar uma figura simples (círculo, retangulo, triângulo, estrela)\nE devem escolher uma cor: Vermelho, Azul, Verde, Amarelo.\nPegar um aluno ou grupo de alunos para classificar as figuras, com aprendizado supervisionado, e não supervisionado.\n\nProblemas com a IA.\nDepende de dados\nPode ter viés\nNão entende contexto como humano\nPode “alucinar”\nAlto custo computacional\n\n\n\n\n",
+    "materiaisNecessarios": [
+      "Sala de aula",
+      "Projetor"
+    ],
+    "avaliacaoAprendizado": "Participação"
   }
 ]
