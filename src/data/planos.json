@@ -403,9 +403,228 @@
       "Projetor"
     ],
     "avaliacaoAprendizado": "Participação",
-    "links": [ {
+    "links": [
+      {
         "titulo": "Slides",
         "url": "https://www.canva.com/design/DAHCEcDkNYI/YqWqdLUjXCfXhtLms07r5Q/edit?utm_content=DAHCEcDkNYI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-      }]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "2º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-03-02",
+    "trimestre": "1º",
+    "temas": [
+      "Transparência",
+      "Responsabilidade Algorítmica",
+      "Provacidade e proteçao de dados",
+      "Empregos",
+      "Ética em sistemas computacionais"
+    ],
+    "duracao": "3 aulas 50 min",
+    "objetivosGerais": "Desenvolver habilidades técnicas básicas em IA, incluindo entendimento de algoritmos de aprendizado de máquina e ferramentas de desenvolvimento de IA.",
+    "metodologias": "Sala de aula invertida",
+    "procedimentoMetodologico": "",
+    "materiaisNecessarios": [
+      ""
+    ],
+    "avaliacaoAprendizado": "Apresentação dos grupos"
+  },
+  {
+    "id": 17,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "2º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-03-09",
+    "trimestre": "1º",
+    "temas": [
+      "Criando IAs"
+    ],
+    "duracao": "3 aulas 50 min",
+    "objetivosGerais": "Desenvolver habilidades técnicas básicas em IA, incluindo entendimento de algoritmos de aprendizado de máquina e ferramentas de desenvolvimento de IA.",
+    "metodologias": "Mão na massa",
+    "procedimentoMetodologico": "",
+    "materiaisNecessarios": [
+      ""
+    ],
+    "avaliacaoAprendizado": "Integração usando Ollama"
+  },
+  {
+    "id": 18,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "2º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-03-16",
+    "trimestre": "1º",
+    "temas": [
+      "Conceitos e princípios do Design Thinking"
+    ],
+    "duracao": "3 aulas 50 min",
+    "objetivosGerais": "Analisar tendências de mercado e identificar oportunidades de negócios e inovação.",
+    "metodologias": "expositiva dialogada storytelling, Design Thinking",
+    "procedimentoMetodologico": "",
+    "materiaisNecessarios": [
+      ""
+    ],
+    "avaliacaoAprendizado": "O professor vai escolher 3 alunos para ajudá-lo, ele dará um bloco de postits para cada um, eles deveram anotar as palavras que os outros alunos derem, depois será sorteado nesses postits 3 deles para cada grupo de 3, esses grupo deve criar um produto com base nessas 3 palavras"
+  },
+  {
+    "id": 19,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "2º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-03-23",
+    "trimestre": "1º",
+    "temas": [
+      "Empatia",
+      "definição de ideação",
+      "protopotipagem",
+      "teste"
+    ],
+    "duracao": "3 aulas de 50 min",
+    "objetivosGerais": "Comunicar ideias, projetos e resultados de forma clara e persuasiva, tanto oralmente quanto por escrito.",
+    "metodologias": "Aprendizagem Baseada em Desafios",
+    "procedimentoMetodologico": "",
+    "materiaisNecessarios": [
+      ""
+    ],
+    "avaliacaoAprendizado": "Pesquisa de usuários, validação com grupo diverso"
+  },
+  {
+    "id": 20,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "2º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-03-30",
+    "trimestre": "1º",
+    "temas": [
+      "Design Thinking"
+    ],
+    "duracao": "3 aulas de 50 min",
+    "objetivosGerais": "",
+    "metodologias": "Lean Startup",
+    "procedimentoMetodologico": "",
+    "materiaisNecessarios": [
+      ""
+    ],
+    "avaliacaoAprendizado": "Pitch do produto"
+  },
+  {
+    "id": 21,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "2º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-04-06",
+    "trimestre": "1º",
+    "temas": [
+      "Empreendedorismo",
+      "inovação"
+    ],
+    "duracao": "",
+    "objetivosGerais": "Elaborar planos estratégicos para o desenvolvimento de carreira e projetos de inovação.",
+    "metodologias": "Aula expositiva dialogada",
+    "procedimentoMetodologico": "",
+    "materiaisNecessarios": [
+      ""
+    ],
+    "avaliacaoAprendizado": "Participação"
+  },
+  {
+    "id": 22,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "3º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-04-13",
+    "trimestre": "1º",
+    "temas": [
+      "Projetos",
+      "Papéis",
+      "Responsabilidades em equipes"
+    ],
+    "duracao": "3 aulas de 50 min",
+    "objetivosGerais": "Gerenciar projetos de inovação, incluindo o estabelecimento de objetivos, cronogramas, recursos e monitoramento de resultados.",
+    "metodologias": "Aula expositiva dialogada",
+    "procedimentoMetodologico": "",
+    "materiaisNecessarios": [
+      ""
+    ],
+    "avaliacaoAprendizado": "Participação"
+  },
+  {
+    "id": 23,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "2º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-04-27",
+    "trimestre": "1º",
+    "temas": [
+      "Metodologias tradicionais",
+      "Metodologias Ágeis"
+    ],
+    "duracao": "3 aulas 50 min",
+    "objetivosGerais": "Gerenciar projetos de inovação, incluindo o estabelecimento de objetivos, cronogramas, recursos e monitoramento de resultados.",
+    "metodologias": "Aula expositiva diaogada/Mão na massa",
+    "procedimentoMetodologico": "",
+    "materiaisNecessarios": [
+      ""
+    ],
+    "avaliacaoAprendizado": "Criação de projetos com Trello, Jira e Notion"
+  },
+  {
+    "id": 24,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "2º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-05-04",
+    "trimestre": "1º",
+    "temas": [
+      "IA",
+      "Transparência",
+      "responsabilidade",
+      "privacidade",
+      "proteção de dados",
+      "Ética em sistemas computacionais"
+    ],
+    "duracao": "3 aulas 50 min",
+    "objetivosGerais": "Avaliar criticamente as aplicações de IA, identificar possíveis problemas e considerar implicações éticas.",
+    "metodologias": "Avaliação escrita",
+    "procedimentoMetodologico": "",
+    "materiaisNecessarios": [
+      ""
+    ],
+    "avaliacaoAprendizado": "Avaliação escrita"
+  },
+  {
+    "id": 25,
+    "instituicao": "Centro Estadual de Educação Profissional Prof° Naiana Babaresco de Souza",
+    "professor": "Leonilso Fandres Wrublak",
+    "serie": "2º ano Desenvolvimento de Sistemas",
+    "materia": "Inovação Técnológica e Empreendedorismo",
+    "data": "2026-05-11",
+    "trimestre": "1º",
+    "temas": [
+      "Design Thinking",
+      "Learn Startup"
+    ],
+    "duracao": "3 aulas de 50 min",
+    "objetivosGerais": "Elaborar planos estratégicos para o desenvolvimento de carreira e projetos de inovação.",
+    "metodologias": "Criação de mapa mental com as informações e conceitos associados a criação de um startup",
+    "procedimentoMetodologico": "",
+    "materiaisNecessarios": [
+      ""
+    ],
+    "avaliacaoAprendizado": "Mapa mental em Cartolina"
   }
 ]
