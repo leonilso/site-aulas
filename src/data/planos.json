@@ -364,21 +364,21 @@
     "professor": "Leonilso Fandres Wrublak",
     "serie": "1º ano Desenvolvimento de Sistemas",
     "materia": "Introdução a Computação",
-    "data": "2026-05-11",
+    "data": "2026-02-26",
     "trimestre": "1º",
     "temas": [
-      "Comandos SQL: DQL, DML e DDL"
+      ""
     ],
     "duracao": "2 aulas",
-    "objetivosGerais": "Entender como e quando usar os comandos do SQL",
-    "metodologias": "Questionário.",
-    "procedimentoMetodologico": "1. Prova escrita",
+    "objetivosGerais": "Entender os principios da computação",
+    "metodologias": "Aula expositiva Dialogada",
+    "procedimentoMetodologico": "Primeira parte da aula, algoritmo humano, o professor deve levar um pacote de pão, junto com um pote de doce e uma faca de serra, o professor deverá pedir para os alunos lhe darem o passo a passo de como passar o doce no pão. No segundo momento o professor deve pedir exemplos da onde a computação pode ser utilizada, isso envolve Dados Algoritmos e Problemas computacionais. No terceiro momento o professor deve explicar sobre diferença entre dado, informação e conhecimento, algoritmo e problema computacional. Parte 3 da pizza ao algoritmo: Dados: Calabresa , Mussarela , Grande , R$ 45  , Borda recheada, Sexta-feira  , 3 pessoas, informação: “Uma pizza grande de calabresa com borda recheada custa R$45 e será dividida entre 3 pessoas na sexta-feira.” conhecimento: Essa pizza é suficiente para 3 pessoas? problema “Como dividir igualmente a conta da pizza entre 3 pessoas?” problema computacional: “Dado um valor total e a quantidade de pessoas, calcular o valor individual.” Algoritmo = sequência finita de passos para resolver um problema.",
     "materiaisNecessarios": [
       "Sala de aula",
       "Papel",
       "Caneta"
     ],
-    "avaliacaoAprendizado": "Prova Escrita",
+    "avaliacaoAprendizado": "Participação",
     "links": []
   },
   {

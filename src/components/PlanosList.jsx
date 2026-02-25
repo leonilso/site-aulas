@@ -13,15 +13,15 @@ const PlanosList = ({ planos }) => {
         <span className="text-sm text-slate-500">Mostrando <strong>{planos.length}</strong> resultados</span>
       </div>
       {planos
-        .filter((plano) => {
-          const [ano, mes, dia] = plano.data.split("-");
-          const dataPlano = new Date(ano, mes - 1, dia);
+        // .filter((plano) => {
+        //   const [ano, mes, dia] = plano.data.split("-");
+        //   const dataPlano = new Date(ano, mes - 1, dia);
 
-          const hoje = new Date();
-          hoje.setHours(0, 0, 0, 0);
+        //   const hoje = new Date();
+        //   hoje.setHours(0, 0, 0, 0);
 
-          return dataPlano >= hoje;
-        })
+        //   return dataPlano >= hoje;
+        // })
         .map((plano) => (
           <PlanoCard
             key={plano.id || JSON.stringify(plano)}
